@@ -32,7 +32,7 @@ const options = {
 
     }
 
-        fetch("http://localhost:4000/regUser", options)
+        fetch("https://mern-movie-site.herokuapp.com", options)
       .then(res => res.json())
       .then((data) => {
         

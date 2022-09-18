@@ -12,7 +12,7 @@ import AllMoviesPage from './pages/AllMoviesPage';
 import ReservationPage from './pages/ReservationPage';
 import TicketPage from './pages/TicketPage';
 
-const socket = io.connect("http://localhost:4000")
+const socket = io.connect("https://mern-movie-site.herokuapp.com")
 
 function App() {
 
