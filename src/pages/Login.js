@@ -11,7 +11,7 @@ const {socket, setLogedinUser} = useContext(mainContext)
 
 function validateUser(){
 
-  fetch("https://mern-movie-site.herokuapp.com/" + emailLogRef.current.value + "/" + passLogRef.current.value )
+  fetch("https://mern-movie-site.herokuapp.com/logUser/" + emailLogRef.current.value + "/" + passLogRef.current.value )
             .then(res => res.json())
             .then(data => {
                 

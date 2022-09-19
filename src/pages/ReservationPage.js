@@ -86,7 +86,7 @@ const ReservationPage = () => {
         }
 
           // change mongodb info
-      fetch("https://mern-movie-site.herokuapp.com/" + logedinUser.email + "/" + totalPrice )
+      fetch("https://mern-movie-site.herokuapp.com/chargeUser/" + logedinUser.email + "/" + totalPrice )
         .then(res => res.json())
         .then(info => socket.emit("charge_user", info)
          )
