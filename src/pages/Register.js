@@ -24,7 +24,7 @@ function registerUser(){
     
 
 const options = {
-        crossDomain:true,
+        mode: "cors",
         method: "POST",
         headers: {
             "content-type": "application/json"
