@@ -24,6 +24,7 @@ function registerUser(){
     
 
 const options = {
+        crossDomain:true,
         method: "POST",
         headers: {
             "content-type": "application/json"
