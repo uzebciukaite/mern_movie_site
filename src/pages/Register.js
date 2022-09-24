@@ -24,10 +24,11 @@ function registerUser(){
     
 
 const options = {
-        mode: "cors",
         method: "POST",
         headers: {
-            "content-type": "application/json"
+            "content-type": "application/json",
+            "Access-Control-Allow-Origin": 'https://gregarious-custard-37f089.netlify.app',
+
         },
         body: JSON.stringify(newUser)
 
