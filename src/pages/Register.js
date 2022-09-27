@@ -27,7 +27,7 @@ const options = {
         method: "POST",
         headers: {
             "content-type": "application/json",
-            "Access-Control-Allow-Origin": 'https://gregarious-custard-37f089.netlify.app',
+            "Access-Control-Allow-Origin": 'https://mern-movie-site.herokuapp.com',
 
         },
         body: JSON.stringify(newUser)
