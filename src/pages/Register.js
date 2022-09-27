@@ -27,7 +27,7 @@ const options = {
         method: "POST",
         headers: {
             "content-type": "application/json",
-            "Access-Control-Allow-Origin": 'https://mern-movie-site.herokuapp.com',
+            "Access-Control-Allow-Origin": '*',
 
         },
         body: JSON.stringify(newUser)
